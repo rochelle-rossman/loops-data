@@ -33,5 +33,7 @@ const team = [
 ];
 for (const taco of team) {
   console.log(taco)
-  instructors.innerHTML += `<h1>${ taco.name }</h1>`
+  instructors.innerHTML += `<h1>${taco.name}</h1>`
+  instructors.innerHTML += `<h2>${taco.favoriteColor}</h2>`
+  instructors.innerHTML +=`${taco.email}`
 }
